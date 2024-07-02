@@ -1,0 +1,1341 @@
+2024/07/01 18:33:13 [error] [exception.Error] Error: Call to undefined function memory_limit() in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:5
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/01 18:34:24 [error] [php] Failed to set memory limit to 1 bytes (Current memory usage is 2097152 bytes) (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:5)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(5): ini_set()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#2 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#5 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#6 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/01 18:34:31 [error] [php] Failed to set memory limit to 100 bytes (Current memory usage is 2097152 bytes) (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:5)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(5): ini_set()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#2 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#5 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#6 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/01 18:34:51 [error] [php] Invalid "memory_limit" setting. Invalid quantity "2MB": unknown multiplier "B", interpreting as "2" for backwards compatibility (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:5)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(5): ini_set()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#2 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#5 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#6 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/01 18:36:08 [error] [php] Invalid "memory_limit" setting. Invalid quantity "2MB": unknown multiplier "B", interpreting as "2" for backwards compatibility (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:5)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(5): ini_set()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#2 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#5 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#6 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/01 18:36:39 [error] [php] Failed to set memory limit to 1048576 bytes (Current memory usage is 2097152 bytes) (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:5)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(5): ini_set()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#2 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#5 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#6 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/01 19:05:09 [error] [php] file_get_contents(./fucker.json): Failed to open stream: No such file or directory (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:5)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(5): file_get_contents()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#2 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#5 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#6 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/01 20:01:53 [error] [php] foreach() argument must be of type array|object, string given (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:106)
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/01 20:02:09 [error] [exception.ValueError] ValueError: explode(): Argument #1 ($separator) cannot be empty in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:106
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(106): explode()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#2 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#5 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#6 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#7 {main}
+---
+2024/07/02 05:06:38 [error] [exception.ParseError] ParseError: syntax error, unexpected identifier "name" in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:125
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 05:51:42 [error] [php] Undefined array key 0 (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:128)
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 12:28:46 [error] [php] Undefined array key 0 (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:46)
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 13:08:19 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:29
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 13:09:13 [error] [php] require(vendor/autoload.php): Failed to open stream: No such file or directory (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:2)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(2): require()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 13:09:18 [error] [php] require(vendor/autoload.php): Failed to open stream: No such file or directory (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:2)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(2): require()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 13:09:23 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:28
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 13:09:44 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:28
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 13:10:32 [error] [exception.Error] Error: Class "Symfony\Component\Yaml\Command\LintCommand" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:29
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 13:11:59 [error] [exception.ReflectionException] ReflectionException: Class "RdKafka\Conf" does not exist in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:31
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(31): ReflectionClass->__construct()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#2 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#5 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#6 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#7 {main}
+---
+2024/07/02 13:13:43 [error] [php] require(vendor/autoload.php): Failed to open stream: No such file or directory (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:2)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(2): require()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 13:14:04 [error] [php] require(../vendor/autoload.php): Failed to open stream: No such file or directory (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:2)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(2): require()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 13:14:35 [error] [php] require(../../../vendor/autoload.php): Failed to open stream: No such file or directory (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:2)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(2): require()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 13:14:41 [error] [php] require(../../../../vendor/autoload.php): Failed to open stream: No such file or directory (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:2)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(2): require()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 13:17:50 [error] [exception.ReflectionException] ReflectionException: Class "RdKafka\Conf" does not exist in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:29
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(29): ReflectionClass->__construct()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#2 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#5 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#6 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#7 {main}
+---
+2024/07/02 13:18:00 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:29
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 13:18:14 [error] [php] include(Conf.php): Failed to open stream: No such file or directory (/var/www/yii1/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/yii1/framework/YiiBase.php(463): include()
+#1 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(29): autoload()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 13:18:29 [error] [php] include(Conf.php): Failed to open stream: No such file or directory (/var/www/yii1/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/yii1/framework/YiiBase.php(463): include()
+#1 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(29): autoload()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 13:18:37 [error] [php] include(Test.php): Failed to open stream: No such file or directory (/var/www/yii1/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/yii1/framework/YiiBase.php(463): include()
+#1 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(29): autoload()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 13:18:45 [error] [exception.Error] Error: Class "Test\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:29
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 13:19:01 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:29
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 13:19:51 [error] [php] include(GitTagTask.php): Failed to open stream: No such file or directory (/var/www/yii1/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/yii1/framework/YiiBase.php(463): include()
+#1 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(29): autoload()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 13:19:52 [error] [php] include(GitTagTask.php): Failed to open stream: No such file or directory (/var/www/yii1/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/yii1/framework/YiiBase.php(463): include()
+#1 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(29): autoload()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 13:20:40 [error] [php] include(Regexp.php): Failed to open stream: No such file or directory (/var/www/yii1/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/yii1/framework/YiiBase.php(463): include()
+#1 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(29): autoload()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 13:20:44 [error] [php] include(Regexp.php): Failed to open stream: No such file or directory (/var/www/yii1/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/yii1/framework/YiiBase.php(463): include()
+#1 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(29): autoload()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 13:21:37 [error] [php] include(FileWriter.php): Failed to open stream: No such file or directory (/var/www/yii1/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/yii1/framework/YiiBase.php(463): include()
+#1 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(29): autoload()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 13:22:55 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:31
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 13:23:40 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:31
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 13:31:01 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:31
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 13:31:21 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:31
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 13:31:30 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:31
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 13:31:35 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:29
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 13:32:00 [error] [php] require_once(RdKafka): Failed to open stream: No such file or directory (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:29)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(29): require_once()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#2 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#5 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#6 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 13:32:13 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:29
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 13:33:35 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:29
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 13:36:43 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:26
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:00:57 [error] [php] include(Fucker.php): Failed to open stream: No such file or directory (/var/www/yii1/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/yii1/framework/YiiBase.php(463): include()
+#1 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(26): autoload()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 18:00:59 [error] [php] include(Fucker.php): Failed to open stream: No such file or directory (/var/www/yii1/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/yii1/framework/YiiBase.php(463): include()
+#1 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(26): autoload()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 18:04:38 [error] [php] require_once(Zend/Search/Lucene.php): Failed to open stream: No such file or directory (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:4)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(4): require_once()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 18:06:07 [error] [php] require_once(/var/www/yii1/testapp/protected/vendor/kwn/php-rdkafka-stubs/stubs): Failed to open stream: No such file or directory (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:4)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(4): require_once()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 18:06:17 [error] [php] require_once(/var/www/yii1/testapp/protected/vendor/kwn/php-rdkafka-stubs/stubs): Failed to open stream: No such file or directory (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:4)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(4): require_once()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 18:06:20 [error] [php] require_once(/var/www/yii1/testapp/protected/vendor/kwn/php-rdkafka-stubs/stubs): Failed to open stream: No such file or directory (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:4)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(4): require_once()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 18:06:43 [error] [php] require_once(/var/www/yii1/testapp/protected/vendor/kwn/php-rdkafka-stubs/stubs/RdKafka): Failed to open stream: No such file or directory (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:6)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(6): require_once()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 18:08:07 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:36
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:08:19 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:34
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:08:22 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:34
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:09:11 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:34
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:09:23 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:36
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:09:54 [error] [php] require_once(php-rdkafka-stubs/stubs/RdKafka/Conf.php): Failed to open stream: No such file or directory (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:3)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(3): require_once()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 18:10:08 [error] [php] require_once(php-rdkafka-stubs/stubs/RdKafka/Conf.php): Failed to open stream: No such file or directory (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:4)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(4): require_once()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 18:10:19 [error] [php] include(Conf.php): Failed to open stream: No such file or directory (/var/www/yii1/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/yii1/framework/YiiBase.php(463): include()
+#1 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(30): autoload()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 18:10:42 [error] [php] require_once(kwn/php-rdkafka-stubs/stubs/RdKafka/Conf.php): Failed to open stream: No such file or directory (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:6)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(6): require_once()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 18:10:46 [error] [php] require_once(php-rdkafka-stubs/stubs/RdKafka/Conf.php): Failed to open stream: No such file or directory (/var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:6)
+Stack trace:
+#0 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(6): require_once()
+#1 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 18:11:13 [error] [exception.Error] Error: Class "RdKafka\Producer" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:34
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:11:23 [error] [php] include(RdKafka.php): Failed to open stream: No such file or directory (/var/www/yii1/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/yii1/framework/YiiBase.php(463): include()
+#1 /var/www/yii1/testapp/protected/vendor/kwn/php-rdkafka-stubs/stubs/RdKafka/Producer.php(4): autoload()
+#2 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(8): require_once()
+#3 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#4 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#5 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#6 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#7 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#8 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#9 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 18:12:14 [error] [php] include(RdKafka.php): Failed to open stream: No such file or directory (/var/www/yii1/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/yii1/framework/YiiBase.php(463): include()
+#1 /var/www/yii1/testapp/protected/vendor/kwn/php-rdkafka-stubs/stubs/RdKafka/Producer.php(4): autoload()
+#2 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(8): require_once()
+#3 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#4 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#5 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#6 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#7 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#8 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#9 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 18:12:29 [error] [php] include(RdKafka.php): Failed to open stream: No such file or directory (/var/www/yii1/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/yii1/framework/YiiBase.php(463): include()
+#1 /var/www/yii1/testapp/protected/vendor/kwn/php-rdkafka-stubs/stubs/RdKafka/Producer.php(4): autoload()
+#2 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(8): require_once()
+#3 /var/www/yii1/framework/console/CConsoleCommandRunner.php(166): require_once()
+#4 /var/www/yii1/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#5 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#6 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#7 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#8 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#9 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 18:15:16 [error] [exception.Error] Error: Call to a member function produce() on null in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:41
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:15:30 [error] [exception.Error] Error: Call to a member function produce() on null in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:41
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:15:34 [error] [exception.Error] Error: Call to a member function produce() on null in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:41
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:17:31 [error] [exception.Error] Error: Call to a member function produce() on null in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:41
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:25:43 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:26
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:29:42 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:26
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:29:56 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:28
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:30:12 [error] [exception.Error] Error: Call to a member function produce() on null in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:41
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:32:55 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:37
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:41:03 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:35
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:41:07 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:35
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:41:53 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:35
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:47:32 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:35
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:48:05 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:35
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:51:33 [error] [exception.Error] Error: Class "RdKafka\Message" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:38
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:52:08 [error] [exception.Error] Error: Class "RdKafka\Consumer" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:40
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:52:55 [error] [exception.Error] Error: Class "RdKafka\TopicConf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:44
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:53:12 [error] [exception.Error] Error: Call to a member function consumeStart() on null in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:54
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:56:56 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:26
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 18:59:29 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:26
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 19:01:52 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:26
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 19:06:22 [error] [php] include(Escaper.php): Failed to open stream: No such file or directory (/var/www/yii1/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/yii1/framework/YiiBase.php(463): include()
+#1 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(26): autoload()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 19:06:40 [error] [php] include(Escaper.php): Failed to open stream: No such file or directory (/var/www/yii1/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/yii1/framework/YiiBase.php(463): include()
+#1 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(26): autoload()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 19:06:52 [error] [php] include(Escaper.php): Failed to open stream: No such file or directory (/var/www/yii1/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/yii1/framework/YiiBase.php(463): include()
+#1 /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php(26): autoload()
+#2 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#3 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /var/www/yii1/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/yii1/testapp/protected/yiic.php(7): require_once()
+#7 /var/www/yii1/testapp/protected/yiic(4): require_once()
+
+2024/07/02 19:08:57 [error] [php] include(Escaper.php): failed to open stream: No such file or directory (/var/www/html/framework/YiiBase.php:463)
+Stack trace:
+#0 /var/www/html/framework/YiiBase.php(463): include()
+#1 unknown(0): autoload()
+#2 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(26): spl_autoload_call()
+#3 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#4 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /var/www/html/framework/yiic.php(33): CConsoleApplication->run()
+#7 /var/www/html/testapp/protected/yiic.php(7): require_once()
+#8 /var/www/html/testapp/protected/yiic(4): require_once()
+
+2024/07/02 19:10:06 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:26
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 19:27:13 [error] [php] RdKafka\ProducerTopic::produce() expects parameter 3 to be string, object given (/var/www/html/testapp/protected/commands/FileProcessorCommand.php:49)
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(49): RdKafka\ProducerTopic->produce()
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CConsoleApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once()
+#6 /var/www/html/testapp/protected/yiic(4): require_once()
+
+2024/07/02 19:28:13 [error] [php] RdKafka\ProducerTopic::produce() expects parameter 3 to be string, object given (/var/www/html/testapp/protected/commands/FileProcessorCommand.php:50)
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(50): RdKafka\ProducerTopic->produce()
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CConsoleApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once()
+#6 /var/www/html/testapp/protected/yiic(4): require_once()
+
+2024/07/02 19:37:14 [error] [exception.Error] Error: Class "RdKafka\Conf" not found in /var/www/yii1/testapp/protected/commands/FileProcessorCommand.php:26
+Stack trace:
+#0 /var/www/yii1/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run()
+#1 /var/www/yii1/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /var/www/yii1/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/yii1/framework/yiic.php(33): CApplication->run()
+#4 /var/www/yii1/testapp/protected/yiic.php(7): require_once('...')
+#5 /var/www/yii1/testapp/protected/yiic(4): require_once('...')
+#6 {main}
+---
+2024/07/02 19:44:48 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:46
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(46): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "1975...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 19:46:21 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:46
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(46): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "2120...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 19:46:54 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:46
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(46): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "397"...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 19:47:55 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:46
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(46): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "677"...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 19:48:48 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:46
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(46): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "929"...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 19:48:55 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:46
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(46): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "668"...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 19:49:14 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:46
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(46): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "537"...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 19:49:57 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:47
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(47): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "468"...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 19:50:16 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:49
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(49): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "546"...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 19:51:57 [error] [exception.Exception] Exception: RdKafka\Metadata\Topic::__construct() has not been called in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:37
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(37): var_dump(Object(RdKafka\Metadata\Topic))
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 19:52:05 [error] [exception.Exception] Exception: RdKafka\Metadata\Topic::__construct() has not been called in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:37
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(37): var_dump(Object(RdKafka\Metadata\Topic))
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 19:52:45 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:53
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(53): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "1461...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 19:55:25 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:55
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(55): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "452"...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 19:58:55 [error] [exception.RdKafka\Exception] RdKafka\Exception: No such configuration property: "allow.auto.create.topics" in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:34
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(34): RdKafka\TopicConf->set('allow.auto.crea...', '1')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 19:59:02 [error] [exception.RdKafka\Exception] RdKafka\Exception: No such configuration property: "allow.auto.create.topics" in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:34
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(34): RdKafka\TopicConf->set('allow.auto.crea...', '1')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 19:59:23 [error] [exception.RdKafka\Exception] RdKafka\Exception: No such configuration property: "allow.auto.create.topics" in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:34
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(34): RdKafka\TopicConf->set('allow.auto.crea...', '')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 20:00:02 [error] [exception.Error] Error: Call to a member function produce() on null in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:57
+Stack trace:
+#0 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#1 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#2 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /var/www/html/framework/yiic.php(33): CApplication->run()
+#4 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#5 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#6 {main}
+---
+2024/07/02 20:00:38 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:58
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(58): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "63",...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 20:01:07 [error] [exception.RdKafka\Exception] RdKafka\Exception: No such configuration property: "allow.auto.create.topics" in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:34
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(34): RdKafka\TopicConf->set('allow.auto.crea...', '')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 20:01:15 [error] [exception.RdKafka\Exception] RdKafka\Exception: No such configuration property: "allow.auto.create" in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:34
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(34): RdKafka\TopicConf->set('allow.auto.crea...', '')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 20:02:38 [error] [exception.RdKafka\Exception] RdKafka\Exception: No such configuration property: "allow.auto.create.topice" in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:30
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(30): RdKafka\Conf->set('allow.auto.crea...', '')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 20:02:48 [error] [exception.RdKafka\Exception] RdKafka\Exception: No such configuration property: "allow.auto.create.topics" in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:30
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(30): RdKafka\Conf->set('allow.auto.crea...', '')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 20:07:19 [error] [exception.RdKafka\Exception] RdKafka\Exception: No such configuration property: "allow.auto.create.topics" in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:30
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(30): RdKafka\Conf->set('allow.auto.crea...', '')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 20:07:28 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:54
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(54): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "1728...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 20:09:31 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:55
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(55): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "563"...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 20:09:58 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:55
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(55): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "2583...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 20:10:06 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:55
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(55): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "2583...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 20:10:13 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:55
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(55): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "2583...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 20:10:20 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:55
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(55): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "2583...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 20:10:28 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:55
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(55): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "2583...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 20:10:34 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:55
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(55): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "2583...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
+2024/07/02 20:10:41 [error] [exception.RdKafka\Exception] RdKafka\Exception: Local: Unknown topic in /var/www/html/testapp/protected/commands/FileProcessorCommand.php:55
+Stack trace:
+#0 /var/www/html/testapp/protected/commands/FileProcessorCommand.php(55): RdKafka\ProducerTopic->produce(-1, 0, '\t{\t\t"id": "2583...')
+#1 /var/www/html/framework/console/CConsoleCommandRunner.php(71): FileProcessorCommand->run(Array)
+#2 /var/www/html/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /var/www/html/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /var/www/html/framework/yiic.php(33): CApplication->run()
+#5 /var/www/html/testapp/protected/yiic.php(7): require_once('/var/www/html/f...')
+#6 /var/www/html/testapp/protected/yiic(4): require_once('/var/www/html/t...')
+#7 {main}
+---
